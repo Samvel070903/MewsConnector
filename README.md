@@ -1,4 +1,6 @@
 # Mews Connector — Wrapper Python
+<img width="480" height="105" alt="Mews2" src="https://github.com/user-attachments/assets/5c8785b4-d906-4cba-8b73-169e58912625" />
+
 
 [![Python Version](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
