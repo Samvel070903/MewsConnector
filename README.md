@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏨 Mews Connector — Wrapper Python
+# <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" height="40"/> Mews Connector — Wrapper Python
 
 [![Python Version](https://img.shields.io/badge/python-3.9%2B-blue.svg?style=for-the-badge)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge)](LICENSE)
@@ -9,7 +9,7 @@
 
 **Un wrapper Python professionnel et entièrement typé pour l'[API Mews Connector](https://mews-systems.gitbook.io/connector-api/)**
 
-[Installation](#-installation) • [Documentation](#-documentation-des-opérations) • [Exemples](#-démarrage-rapide) • [Contribuer](#-contribution)
+[<img src="https://img.shields.io/badge/Installation-2ea44f?style=flat-square" height="20"/>](#installation) • [<img src="https://img.shields.io/badge/Documentation-0366d6?style=flat-square" height="20"/>](#documentation-des-opérations) • [<img src="https://img.shields.io/badge/Exemples-ff9800?style=flat-square" height="20"/>](#démarrage-rapide) • [<img src="https://img.shields.io/badge/Contribuer-6f42c1?style=flat-square" height="20"/>](#contribution)
 
 </div>
 
@@ -17,34 +17,40 @@
 
 <div align="center">
 
-### ✨ Fonctionnalités
+### <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="currentColor"/></svg> Fonctionnalités
 
 <table>
 <tr>
 <td align="center" width="33%">
-<strong>🔌 API Complète</strong><br/>
+<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/api.svg" width="24" height="24" style="vertical-align: middle;"/><br/>
+<strong>API Complète</strong><br/>
 Support de tous les endpoints Mews
 </td>
 <td align="center" width="33%">
-<strong>📄 Pagination Auto</strong><br/>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle;"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z" fill="currentColor"/></svg><br/>
+<strong>Pagination Auto</strong><br/>
 Gestion automatique des curseurs
 </td>
 <td align="center" width="33%">
-<strong>🛡️ Typage Fort</strong><br/>
+<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/typescript.svg" width="24" height="24" style="vertical-align: middle;"/><br/>
+<strong>Typage Fort</strong><br/>
 Entièrement typé avec type hints
 </td>
 </tr>
 <tr>
 <td align="center" width="33%">
-<strong>⚡ Retry Automatique</strong><br/>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle;"><path d="M17.65 6.35C16.2 4.9 14.21 4 12 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08c-.82 2.33-3.04 4-5.65 4-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z" fill="currentColor"/></svg><br/>
+<strong>Retry Automatique</strong><br/>
 Gestion intelligente des erreurs
 </td>
 <td align="center" width="33%">
-<strong>🔐 Sécurisé</strong><br/>
+<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/lock.svg" width="24" height="24" style="vertical-align: middle;"/><br/>
+<strong>Sécurisé</strong><br/>
 Gestion sécurisée des tokens
 </td>
 <td align="center" width="33%">
-<strong>📚 Documentation</strong><br/>
+<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/book.svg" width="24" height="24" style="vertical-align: middle;"/><br/>
+<strong>Documentation</strong><br/>
 Exemples pour chaque endpoint
 </td>
 </tr>
@@ -54,41 +60,41 @@ Exemples pour chaque endpoint
 
 ---
 
-## 📋 Table des matières
+## <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/list.svg" width="20" height="20" style="vertical-align: middle;"/> Table des matières
 
 <details>
 <summary>Cliquez pour voir la table des matières complète</summary>
 
-- [Installation](#-installation)
-- [Démarrage rapide](#-démarrage-rapide)
-- [Documentation des opérations](#-documentation-des-opérations)
-  - [Configuration](#-configuration)
-  - [Enterprises](#-enterprises)
-  - [Customers](#-customers)
-  - [Reservations](#-reservations)
-  - [Services](#-services)
-  - [Resources](#-resources)
-  - [Rates](#-rates)
-  - [Payments](#-payments)
-  - [Bills](#-bills)
-  - [Accounting](#-accounting)
-  - [Companies](#-companies)
-  - [Products](#-products)
-  - [Outlets](#-outlets)
-  - [Orders](#-orders)
-  - [Devices](#-devices)
-  - [Loyalty](#-loyalty)
-  - [Vouchers](#-vouchers)
-- [Gestion des erreurs](#-gestion-des-erreurs)
-- [Pagination](#-pagination)
-- [Développement](#-développement)
-- [Contribution](#-contribution)
+- [Installation](#installation)
+- [Démarrage rapide](#démarrage-rapide)
+- [Documentation des opérations](#documentation-des-opérations)
+  - [Configuration](#configuration)
+  - [Enterprises](#enterprises)
+  - [Customers](#customers)
+  - [Reservations](#reservations)
+  - [Services](#services)
+  - [Resources](#resources)
+  - [Rates](#rates)
+  - [Payments](#payments)
+  - [Bills](#bills)
+  - [Accounting](#accounting)
+  - [Companies](#companies)
+  - [Products](#products)
+  - [Outlets](#outlets)
+  - [Orders](#orders)
+  - [Devices](#devices)
+  - [Loyalty](#loyalty)
+  - [Vouchers](#vouchers)
+- [Gestion des erreurs](#gestion-des-erreurs)
+- [Pagination](#pagination)
+- [Développement](#développement)
+- [Contribution](#contribution)
 
 </details>
 
 ---
 
-## 🚀 Installation
+## <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/rocket.svg" width="20" height="20" style="vertical-align: middle;"/> Installation
 
 <div align="center">
 
@@ -116,11 +122,11 @@ pip install -e ".[dev]"
 
 ---
 
-## ⚡ Démarrage rapide
+## <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/zap.svg" width="20" height="20" style="vertical-align: middle;"/> Démarrage rapide
 
 <div style="background-color: #f6f8fa; padding: 20px; border-radius: 8px; border-left: 4px solid #0366d6; margin: 20px 0;">
 
-### 💡 Exemple basique
+### <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/lightbulb.svg" width="18" height="18" style="vertical-align: middle;"/> Exemple basique
 
 ```python
 from mews import MewsClient
@@ -149,7 +155,7 @@ client.customers.add(
 
 </div>
 
-### 🔐 Configuration via variables d'environnement
+### <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/key.svg" width="18" height="18" style="vertical-align: middle;"/> Configuration via variables d'environnement
 
 <div style="background-color: #fff4e6; padding: 15px; border-radius: 8px; border-left: 4px solid #ff9800; margin: 15px 0;">
 
@@ -173,15 +179,15 @@ client = MewsClient()  # chargement automatique depuis .env
 
 ---
 
-## 📚 Documentation des opérations
+## <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/book.svg" width="20" height="20" style="vertical-align: middle;"/> Documentation des opérations
 
 <div style="background-color: #e8f5e9; padding: 15px; border-radius: 8px; border-left: 4px solid #4caf50; margin: 15px 0;">
 
-💡 **Astuce** : Tous les endpoints supportant la pagination gèrent automatiquement les curseurs. Vous n'avez qu'à appeler la méthode et tous les résultats seront retournés.
+<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/info.svg" width="16" height="16" style="vertical-align: middle;"/> **Astuce** : Tous les endpoints supportant la pagination gèrent automatiquement les curseurs. Vous n'avez qu'à appeler la méthode et tous les résultats seront retournés.
 
 </div>
 
-### ⚙️ Configuration
+### <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/settings.svg" width="18" height="18" style="vertical-align: middle;"/> Configuration
 
 <table>
 <tr>
@@ -260,7 +266,7 @@ print(countries["Countries"])
 
 ---
 
-### 🏢 Enterprises
+### <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/building.svg" width="18" height="18" style="vertical-align: middle;"/> Enterprises
 
 <table>
 <tr>
@@ -299,11 +305,11 @@ counters = client.enterprises.get_counters()
 
 ---
 
-### 👥 Customers
+### <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/users.svg" width="18" height="18" style="vertical-align: middle;"/> Customers
 
 <div style="background-color: #e3f2fd; padding: 15px; border-radius: 8px; border-left: 4px solid #2196f3; margin: 15px 0;">
 
-**🔍 Pagination automatique** : Toutes les méthodes de récupération gèrent automatiquement la pagination.
+<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/search.svg" width="16" height="16" style="vertical-align: middle;"/> **Pagination automatique** : Toutes les méthodes de récupération gèrent automatiquement la pagination.
 
 </div>
 
@@ -311,18 +317,18 @@ counters = client.enterprises.get_counters()
 
 | Méthode | Description | Pagination |
 |---------|-------------|------------|
-| `get_all()` | Liste tous les clients avec filtres | ✅ Auto |
-| `get_by_ids()` | Par identifiants | ✅ Auto |
-| `get_by_emails()` | Par emails | ✅ Auto |
-| `add()` | Créer un client | ❌ |
-| `update()` | Mettre à jour | ❌ |
-| `merge()` | Fusionner deux profils | ❌ |
-| `search()` | Recherche par nom | ❌ |
+| `get_all()` | Liste tous les clients avec filtres | <img src="https://img.shields.io/badge/Auto-success?style=flat-square" height="16"/> |
+| `get_by_ids()` | Par identifiants | <img src="https://img.shields.io/badge/Auto-success?style=flat-square" height="16"/> |
+| `get_by_emails()` | Par emails | <img src="https://img.shields.io/badge/Auto-success?style=flat-square" height="16"/> |
+| `add()` | Créer un client | <img src="https://img.shields.io/badge/Non-critical?style=flat-square" height="16"/> |
+| `update()` | Mettre à jour | <img src="https://img.shields.io/badge/Non-critical?style=flat-square" height="16"/> |
+| `merge()` | Fusionner deux profils | <img src="https://img.shields.io/badge/Non-critical?style=flat-square" height="16"/> |
+| `search()` | Recherche par nom | <img src="https://img.shields.io/badge/Non-critical?style=flat-square" height="16"/> |
 
 #### Exemples
 
 <details>
-<summary><strong>📖 Voir tous les exemples Customers</strong></summary>
+<summary><strong><img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/bookopen.svg" width="16" height="16" style="vertical-align: middle;"/> Voir tous les exemples Customers</strong></summary>
 
 ```python
 # Récupérer tous les clients (pagination auto)
@@ -372,29 +378,29 @@ result = client.customers.merge(
 
 ---
 
-### 📅 Reservations
+### <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/calendar.svg" width="18" height="18" style="vertical-align: middle;"/> Reservations
 
 #### Méthodes principales
 
 | Méthode | Description | Pagination |
 |---------|-------------|------------|
-| `get_all()` | Liste toutes les réservations | ✅ Auto |
-| `get_by_ids()` | Par identifiants | ✅ Auto |
-| `price()` | Calculer le prix | ❌ |
-| `add()` | Créer une réservation | ❌ |
-| `update()` | Mettre à jour | ❌ |
-| `confirm()` | Confirmer | ❌ |
-| `cancel()` | Annuler | ❌ |
-| `start()` | Check-in | ❌ |
-| `process()` | Check-out | ❌ |
-| `assign_resource()` | Assigner une chambre | ❌ |
-| `add_companion()` | Ajouter accompagnant | ❌ |
-| `delete_companion()` | Supprimer accompagnant | ❌ |
+| `get_all()` | Liste toutes les réservations | <img src="https://img.shields.io/badge/Auto-success?style=flat-square" height="16"/> |
+| `get_by_ids()` | Par identifiants | <img src="https://img.shields.io/badge/Auto-success?style=flat-square" height="16"/> |
+| `price()` | Calculer le prix | <img src="https://img.shields.io/badge/Non-critical?style=flat-square" height="16"/> |
+| `add()` | Créer une réservation | <img src="https://img.shields.io/badge/Non-critical?style=flat-square" height="16"/> |
+| `update()` | Mettre à jour | <img src="https://img.shields.io/badge/Non-critical?style=flat-square" height="16"/> |
+| `confirm()` | Confirmer | <img src="https://img.shields.io/badge/Non-critical?style=flat-square" height="16"/> |
+| `cancel()` | Annuler | <img src="https://img.shields.io/badge/Non-critical?style=flat-square" height="16"/> |
+| `start()` | Check-in | <img src="https://img.shields.io/badge/Non-critical?style=flat-square" height="16"/> |
+| `process()` | Check-out | <img src="https://img.shields.io/badge/Non-critical?style=flat-square" height="16"/> |
+| `assign_resource()` | Assigner une chambre | <img src="https://img.shields.io/badge/Non-critical?style=flat-square" height="16"/> |
+| `add_companion()` | Ajouter accompagnant | <img src="https://img.shields.io/badge/Non-critical?style=flat-square" height="16"/> |
+| `delete_companion()` | Supprimer accompagnant | <img src="https://img.shields.io/badge/Non-critical?style=flat-square" height="16"/> |
 
 #### Exemples
 
 <details>
-<summary><strong>📖 Voir tous les exemples Reservations</strong></summary>
+<summary><strong><img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/bookopen.svg" width="16" height="16" style="vertical-align: middle;"/> Voir tous les exemples Reservations</strong></summary>
 
 ```python
 # Récupérer les réservations
@@ -436,7 +442,7 @@ client.reservations.process(["uuid-reservation"])
 
 ---
 
-### 🎯 Services
+### <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/target.svg" width="18" height="18" style="vertical-align: middle;"/> Services
 
 ```python
 # Tous les services
@@ -459,7 +465,7 @@ pricing = client.services.get_pricing(
 
 ---
 
-### 🏠 Resources
+### <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/home.svg" width="18" height="18" style="vertical-align: middle;"/> Resources
 
 ```python
 # Toutes les ressources
@@ -492,7 +498,7 @@ client.resources.add_block(
 
 ---
 
-### 💰 Rates
+### <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/dollar.svg" width="18" height="18" style="vertical-align: middle;"/> Rates
 
 ```python
 # Tous les tarifs
@@ -519,11 +525,11 @@ client.rates.update_price(
 
 ---
 
-### 💳 Payments
+### <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/creditcard.svg" width="18" height="18" style="vertical-align: middle;"/> Payments
 
 <div style="background-color: #fff3e0; padding: 15px; border-radius: 8px; border-left: 4px solid #ff9800; margin: 15px 0;">
 
-**💡 Note** : La méthode `get_all()` utilise par défaut les 90 derniers jours si aucun filtre n'est fourni.
+<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/info.svg" width="16" height="16" style="vertical-align: middle;"/> **Note** : La méthode `get_all()` utilise par défaut les 90 derniers jours si aucun filtre n'est fourni.
 
 </div>
 
@@ -546,7 +552,7 @@ result = client.payments.add(
 
 ---
 
-### 🧾 Bills
+### <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/filetext.svg" width="18" height="18" style="vertical-align: middle;"/> Bills
 
 ```python
 # Toutes les factures
@@ -565,7 +571,7 @@ pdf_data = result["PdfData"]
 
 ---
 
-### 📊 Accounting
+### <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/bar-chart.svg" width="18" height="18" style="vertical-align: middle;"/> Accounting
 
 ```python
 # Éléments comptables
@@ -583,7 +589,7 @@ items = client.accounting.get_all(states=["Open", "Closed"])
 
 ---
 
-### 🏢 Companies
+### <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/building.svg" width="18" height="18" style="vertical-align: middle;"/> Companies
 
 ```python
 # Toutes les entreprises
@@ -604,7 +610,7 @@ result = client.companies.delete(company_id="uuid-company")
 
 ---
 
-### 📦 Products
+### <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/package.svg" width="18" height="18" style="vertical-align: middle;"/> Products
 
 ```python
 # Tous les produits
@@ -620,7 +626,7 @@ result = client.products.add_to_reservation(
 
 ---
 
-### 🛒 Outlets
+### <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/shopping-cart.svg" width="18" height="18" style="vertical-align: middle;"/> Outlets
 
 ```python
 # Tous les points de vente
@@ -634,7 +640,7 @@ items = client.outlets.get_items(
 
 ---
 
-### 📋 Orders
+### <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/clipboard.svg" width="18" height="18" style="vertical-align: middle;"/> Orders
 
 ```python
 # Toutes les commandes
@@ -655,7 +661,7 @@ result = client.orders.cancel(
 
 ---
 
-### 📱 Devices
+### <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/smartphone.svg" width="18" height="18" style="vertical-align: middle;"/> Devices
 
 ```python
 # Tous les appareils
@@ -675,7 +681,7 @@ result = client.devices.update_command(
 
 ---
 
-### 🎁 Loyalty
+### <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/gift.svg" width="18" height="18" style="vertical-align: middle;"/> Loyalty
 
 ```python
 # Programmes de fidélité
@@ -699,7 +705,7 @@ tiers = client.loyalty.get_tiers(loyalty_program_id="uuid-program")
 
 ---
 
-### 🎫 Vouchers
+### <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/ticket.svg" width="18" height="18" style="vertical-align: middle;"/> Vouchers
 
 ```python
 # Tous les bons
@@ -720,11 +726,11 @@ result = client.vouchers.delete(voucher_id="uuid-voucher")
 
 ---
 
-## ⚠️ Gestion des erreurs
+## <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/alert-triangle.svg" width="20" height="20" style="vertical-align: middle;"/> Gestion des erreurs
 
 <div style="background-color: #ffebee; padding: 20px; border-radius: 8px; border-left: 4px solid #f44336; margin: 20px 0;">
 
-### 🔴 Exceptions disponibles
+### <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/alert-circle.svg" width="18" height="18" style="vertical-align: middle;"/> Exceptions disponibles
 
 Le wrapper fournit des exceptions spécifiques pour chaque type d'erreur :
 
@@ -756,11 +762,11 @@ except MewsAPIError as e:
 
 ---
 
-## 📄 Pagination
+## <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/file.svg" width="20" height="20" style="vertical-align: middle;"/> Pagination
 
 <div style="background-color: #e8f5e9; padding: 20px; border-radius: 8px; border-left: 4px solid #4caf50; margin: 20px 0;">
 
-### ✅ Pagination automatique
+### <img src="https://img.shields.io/badge/Auto-success?style=flat-square" height="18" style="vertical-align: middle;"/> Pagination automatique
 
 Les endpoints supportant la pagination `Limitation` de Mews gèrent automatiquement les curseurs. Vous obtenez **tous** les résultats sans vous soucier de la pagination.
 
@@ -777,7 +783,7 @@ tous_les_paiements = client.payments.get_all()
 
 ---
 
-## 🛠️ Développement
+## <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/tool.svg" width="20" height="20" style="vertical-align: middle;"/> Développement
 
 ### Prérequis
 
@@ -805,7 +811,7 @@ ruff format .
 
 ---
 
-## 🤝 Contribution
+## <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/handshake.svg" width="20" height="20" style="vertical-align: middle;"/> Contribution
 
 <div align="center">
 
@@ -823,13 +829,13 @@ Les contributions sont les bienvenues ! 🎉
 
 <div style="background-color: #e3f2fd; padding: 15px; border-radius: 8px; margin: 15px 0;">
 
-💡 **Conseil** : Assurez-vous que vos changements passent les tests et respectent le style de code (Ruff).
+<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/lightbulb.svg" width="16" height="16" style="vertical-align: middle;"/> **Conseil** : Assurez-vous que vos changements passent les tests et respectent le style de code (Ruff).
 
 </div>
 
 ---
 
-## 📄 Licence
+## <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/file-text.svg" width="20" height="20" style="vertical-align: middle;"/> Licence
 
 <div align="center">
 
@@ -841,6 +847,6 @@ Ce projet est sous licence **MIT**. Voir le fichier [LICENSE](LICENSE) pour plus
 
 **Fait avec ❤️ pour la communauté Python**
 
-[⭐ Donnez une étoile](https://github.com/Samvel070903/MewsConnector) si ce projet vous est utile !
+[<img src="https://img.shields.io/badge/Donnez_une_étoile-ffd700?style=for-the-badge&logo=github" height="30"/>](https://github.com/Samvel070903/MewsConnector) si ce projet vous est utile !
 
 </div>
