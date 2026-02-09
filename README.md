@@ -1,6 +1,7 @@
 <div align="center">
 
 # <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" height="40"/> Mews Connector — Wrapper Python
+<img width="1368" height="300" alt="Mews2" src="https://github.com/user-attachments/assets/82c27923-7be1-484f-86c6-a23cac1c41b5" />
 
 [![Python Version](https://img.shields.io/badge/python-3.9%2B-blue.svg?style=for-the-badge)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge)](LICENSE)
