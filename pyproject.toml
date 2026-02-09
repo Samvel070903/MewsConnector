@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "mews-connector"
+version = "1.0.0"
+description = "Professional Python wrapper for the Mews Connector API"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [
+    {name = "ProjetProd Team"}
+]
+keywords = ["mews", "pms", "hotel", "api", "connector"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries",
+]
+dependencies = [
+    "httpx>=0.25.0",
+    "python-dotenv>=1.0.0",
+    "pydantic>=2.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-asyncio>=0.21",
+    "respx>=0.20",
+    "ruff>=0.1",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["mews*"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py39"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
